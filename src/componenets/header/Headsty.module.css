@@ -1,0 +1,82 @@
+.first {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px 50px;
+  /* color: rgb(234, 228, 228); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prelogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  color: black;
+}
+.lists {
+  display: flex;
+  list-style: none;
+  
+  margin-left: 25px;
+  /* justify-content: space-between; */
+}
+.lists a li {
+  padding: 10px 10px;
+}
+.lists a{
+  color: rgb(164, 161, 161);
+  text-decoration: none;
+  margin-left: 13px;
+  cursor: pointer;
+ 
+  text-decoration: none;
+}
+.lists li:hover{
+  background-color: rgb(239, 236, 236);
+  
+
+}
+.search {
+    color: rgb(160, 158, 158);
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    border:  1px solid #0a0a0a;
+    padding: 10px 100px 10px 14px;
+}
+.search input{
+    border:  1px solid #fff;
+    outline: none;
+   
+}
+.search input::placeholder{
+    color: rgb(160, 158, 158);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.bag{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.leftside {
+  display: flex;
+  align-items: center;
+}
+section {
+  display: flex;
+}
+section p:hover{
+  background-color: rgb(239, 236, 236);
+}
+section p {
+  margin-right: 8px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+section p:nth-child(1){
+  background-color: rgb(7, 7, 7);
+  color: #fff;
+}

@@ -1,0 +1,103 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  background-color: rgb(5, 5, 5);
+  color: rgb(188, 185, 185);
+  margin: 30px 58px 5px 56px;
+}
+.preview {
+  display: flex;
+}
+.details {
+  width: 52%;
+  padding: 100px 0;
+}
+.details p {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.details h5 {
+  margin-top: 15px;
+  width: 65%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.shopb {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  background-color: white;
+  max-width: 130px;
+  padding: 15px 15px;
+  gap: 14px;
+  color: black;
+}
+.shopb button {
+  width: 100px;
+  border: 1px solid #fff;
+  background-color: #ffffff;
+  font-size: 16px;
+  
+}
+.shopb button a{
+  text-decoration: none;
+  color: black;
+}
+.face {
+  width: 200px;
+}
+.face img {
+  width: 30rem;
+  height: 26rem;
+}
+/* product    secction */
+main {
+  margin: 100px;
+}
+main p {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.items {
+  background-color: #e4edf8;
+  border-radius: 10px;
+  margin: 10px 40px; 
+  box-shadow: 1px 3px 2px 2px #e4edf8;
+}
+.item{
+  width: 84%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* place-items: center; */
+}
+img {
+  width: 200px;
+  /* border-radius: 10px; */
+}
+.describtion{
+  padding: 8px 5px;
+}
+
+.common {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.common p{
+  margin-top: 30px;
+  margin: 50px 0 40px 0;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+.add{
+  border-radius: 5px;
+  padding: 5px 3px;
+  background-color: rgb(215, 225, 234);
+  width: 150px;
+  margin: 8px 35px;
+ 
+}

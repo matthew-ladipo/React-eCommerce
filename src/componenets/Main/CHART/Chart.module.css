@@ -1,0 +1,70 @@
+.items {
+    background-color: #c3c8cd;
+    border-radius: 10px;
+    margin: 10px 40px; 
+    box-shadow: 1px 3px 2px 2px #e4edf8;
+    display: flex;
+  }
+  .item{
+    width: 84%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* place-items: center; */
+  }
+  img {
+    width: 230px;
+    border-radius: 10px;
+  }
+  .describtion{
+    padding: 25px 25px;
+    margin: 20px 10px;
+  }
+  .describtion h3{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .describtion h4{
+    margin: 10px 0;
+    color: rgb(132, 189, 240);
+  }
+  .addremove{
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 227, 227);
+    padding: 7px 10px;
+    width: 80px;
+    gap: 18px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+  }
+  .addremove h5:hover{
+    background-color: #c3c8cd;
+    border-radius: 50%;
+  }
+  
+  .common {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .common p{
+    margin-top: 30px;
+    margin: 50px 0 10px 0;
+    font-size: 23px;
+    font-weight: bold;
+  
+  }
+  .add{
+    border-radius: 5px;
+    padding: 5px 3px;
+    background-color: rgb(215, 225, 234);
+    width: 150px;
+    margin: 8px 20px;
+   
+  }
+  
